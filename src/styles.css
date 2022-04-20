@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+canvas {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+
+  background: none !important;
+  /* background: darkblue !important; */
+  border-bottom: 1px solid black;
+  left: 0;
+  top: 0;
+  /* width: 800px; */
+  height: 500px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  color: #0e0e0e;
+}
+
+#footer2 {
+  position: absolute;
+  bottom: -10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  color: #0e0e0e;
+}
+
+#header {
+  position: absolute;
+  z-index: 1;
+  color: #0e0e0e;
+}
+
+.app {
+  text-align: center;
+  overflow: hidden;
+  height: 98vh;
+  width: 100%;
+  background: #f3f3f5;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: calc(50% - 100px);
+  right: calc(50% - 100px);
+  background: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: all 0.1s ease;
+}
+
+.clearoption {
+  display: flex;
+  justify-content: space-around;
+}
+
+#clearButton {
+  background: #0038e5;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.expand {
+  width: 1066px;
+  height: 1066px;
+  top: calc(50% - 533px);
+  right: calc(50% - 533px);
+  border: 10px solid white;
+}
+
+.physicsOn {
+  border: 10px solid #0038e5;
+}
+
+.game {
+  position: absolute;
+  width: 1066px;
+  height: 700px;
+  top: calc(50% - 350px);
+  transition: none;
+}
+
+.gameTitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 42px;
+  color: #2f3744;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  color: #0038e5;
+}

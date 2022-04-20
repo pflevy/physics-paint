@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Physics Paint</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body style="overflow: hidden">
+    <div class="app">
+      <div class="container expand" id="container">
+        <div class="game">
+          <div class="gameTitle">Physics Paint</div>
+          <div class="gameCanvas" id="gameCanvas">
+            
+            <div id="footer">
+              <div>
+                <label for="sizeSlider">Cursor Size</label>
+                <br />
+                <input
+                  type="range"
+                  id="sizeSlider"
+                  min="0"
+                  max="10"
+                  value="3"
+                  step="1"
+                />
+              </div>
+
+              <p id='physicsValue'>Physics OFF</p>
+               
+
+              <div>
+                <label for="selectColor">Color</label>
+                <input type="color" id="selectColor" value="#0038E5" />
+              </div>
+
+
+            </div>
+            <div class="clearoption" id="footer2">
+              <p id="numOfDots">Dots: 0</p>
+              <p><button id="clearButton">Clear</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>>
+</html
